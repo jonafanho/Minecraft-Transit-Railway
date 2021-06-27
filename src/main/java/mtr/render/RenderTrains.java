@@ -209,6 +209,9 @@ public class RenderTrains implements IGui {
 
 				IDrawing.drawTexture(matrices, vertexConsumer, x1, y1, z1, x2, y1 + SMALL_OFFSET, z2, x3, y2, z3, x4, y2 + SMALL_OFFSET, z4, 0, 0.1875F + textureOffset, 1, 0.3125F + textureOffset, Direction.UP, color, light2);
 				IDrawing.drawTexture(matrices, vertexConsumer, x4, y2 + SMALL_OFFSET, z4, x3, y2, z3, x2, y1 + SMALL_OFFSET, z2, x1, y1, z1, 0, 0.1875F + textureOffset, 1, 0.3125F + textureOffset, Direction.UP, color, light2);
+				
+				IDrawing.drawTexture(matrices, vertexConsumer, x1, y1, z1, x2, y1 + SMALL_OFFSET/2, z2, x3, y2, z3, x4, y2 + SMALL_OFFSET/2, z4, 0, 0, 1, 1, Direction.UP, color, light2);
+				IDrawing.drawTexture(matrices, vertexConsumer, x4, y2 + SMALL_OFFSET/2, z4, x3, y2, z3, x2, y1 + SMALL_OFFSET/2, z2, x1, y1, z1, 0, 0, 1, 1, Direction.UP, color, light2);
 			});
 		}));
 	}
