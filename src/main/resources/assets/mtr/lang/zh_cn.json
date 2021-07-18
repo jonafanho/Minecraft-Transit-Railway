@@ -217,7 +217,7 @@
 	"tooltip.mtr.railway_sign_even": "摆放模式：双数",
 	"tooltip.mtr.railway_sign_length": "长度：%s",
 	"tooltip.mtr.railway_sign_odd": "摆放模式：单数",
-	"tooltip.mtr.selected_block": "已选定方块：",
+	"tooltip.mtr.selected_block": "已选定方块：%s",
 	"tooltip.mtr.station_color": "颜色取决于车站",
 	"tooltip.mtr.station_color_name": "颜色和文字取决于车站",
 	"train.mtr.A_TRAIN_AEL": "CAF 机场快线列车",
